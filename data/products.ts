@@ -1,0 +1,77 @@
+
+import { Product } from '../types';
+
+export const initialProducts: Product[] = [
+  {
+    id: 1,
+    name: 'Aart Signature Tee',
+    price: 45.00,
+    description: 'Crafted from premium 100% organic cotton, this tee offers a relaxed fit and unparalleled comfort. The minimalist Aart logo is subtly embroidered on the chest, making it a versatile staple for any wardrobe.',
+    category: 'Unisex',
+    imageUrl: 'https://picsum.photos/seed/aart1/800/1000',
+    sizes: ['S', 'M', 'L', 'XL'],
+  },
+  {
+    id: 2,
+    name: 'Urban Canvas Hoodie',
+    price: 95.00,
+    description: 'Our heavyweight hoodie is designed for the modern creative. Featuring a soft fleece interior, a structured hood, and a discreet side pocket, it combines functionality with a clean aesthetic.',
+    category: 'Unisex',
+    imageUrl: 'https://picsum.photos/seed/aart2/800/1000',
+    sizes: ['S', 'M', 'L', 'XL'],
+  },
+  {
+    id: 3,
+    name: 'Studio Denim Jacket',
+    price: 150.00,
+    description: 'A timeless piece re-imagined. This jacket is made from rigid, high-quality Japanese denim that will mold to your body over time. Finished with custom Aart hardware.',
+    category: 'Men',
+    imageUrl: 'https://picsum.photos/seed/aart3/800/1000',
+    sizes: ['M', 'L', 'XL'],
+  },
+  {
+    id: 4,
+    name: 'Flow Linen Trousers',
+    price: 110.00,
+    description: 'Experience effortless elegance with our Flow Linen Trousers. The breathable fabric and wide-leg cut provide a comfortable, flattering silhouette, perfect for warm days and artistic pursuits.',
+    category: 'Women',
+    imageUrl: 'https://picsum.photos/seed/aart4/800/1000',
+    sizes: ['S', 'M', 'L'],
+  },
+  {
+    id: 5,
+    name: 'Monochrome Crewneck',
+    price: 80.00,
+    description: 'A classic crewneck sweatshirt elevated with a structured, tailored fit. The dense loopback cotton provides warmth without bulk, ideal for layering.',
+    category: 'Unisex',
+    imageUrl: 'https://picsum.photos/seed/aart5/800/1000',
+    sizes: ['S', 'M', 'L', 'XL'],
+  },
+  {
+    id: 6,
+    name: 'Sculpt Ribbed Tank',
+    price: 55.00,
+    description: 'A foundational piece for any wardrobe, our Sculpt Ribbed Tank is made from a custom cotton-modal blend that offers a close, comfortable fit and excellent shape retention.',
+    category: 'Women',
+    imageUrl: 'https://picsum.photos/seed/aart6/800/1000',
+    sizes: ['S', 'M', 'L'],
+  },
+  {
+    id: 7,
+    name: 'Gallery Cargo Pants',
+    price: 135.00,
+    description: 'Functional design meets clean lines. These cargo pants are crafted from durable cotton twill and feature a modern, straight-leg fit with thoughtfully placed pockets.',
+    category: 'Men',
+    imageUrl: 'https://picsum.photos/seed/aart7/800/1000',
+    sizes: ['M', 'L', 'XL'],
+  },
+  {
+    id: 8,
+    name: 'Artisan Utility Vest',
+    price: 120.00,
+    description: 'The perfect layering piece for the creative on the go. Multiple pockets provide ample storage, while the lightweight canvas construction ensures comfort and mobility.',
+    category: 'Unisex',
+    imageUrl: 'https://picsum.photos/seed/aart8/800/1000',
+    sizes: ['S', 'M', 'L'],
+  }
+];
