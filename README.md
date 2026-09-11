@@ -1,10 +1,8 @@
-﻿# Aart
+# Aart
 
-Aart - Art You Wear
+<img src="./assets/header.svg" width="100%" alt="Aart" />
 
-## Stack
-
-react Â· vite Â· typescript Â· tailwindcss
+Art you wear. Clothing brand storefront.
 
 ## Run locally
 
@@ -13,4 +11,4 @@ react Â· vite Â· typescript Â· tailwindcss
 
 ## License
 
-Private / all rights reserved.
+All rights reserved.
